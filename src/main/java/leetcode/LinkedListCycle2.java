@@ -58,7 +58,11 @@ public class LinkedListCycle2 {
             fast = fast.next.next;
             slow = slow.next;
         }
-        return null;
+        while (head != slow.next) {
+            head = head.next;
+            slow = slow.next;
+        }
+        return head;
     }
 }
 
