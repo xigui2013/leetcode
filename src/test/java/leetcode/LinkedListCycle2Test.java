@@ -24,7 +24,7 @@ public class LinkedListCycle2Test {
     }
 
     /**
-     * Method: detectCycle(ListNode head)
+     * Method: detectCycle(lib.ListNode head)
      */
     @Test
     public void testDetectCycle() throws Exception {

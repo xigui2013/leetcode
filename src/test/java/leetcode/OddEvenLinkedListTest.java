@@ -24,7 +24,7 @@ public class OddEvenLinkedListTest {
     }
 
     /**
-     * Method: oddEvenList(ListNode head)
+     * Method: oddEvenList(lib.ListNode head)
      */
     @Test
     public void testOddEvenList() throws Exception {
