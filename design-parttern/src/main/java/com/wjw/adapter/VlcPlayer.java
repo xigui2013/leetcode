@@ -6,12 +6,8 @@ package com.wjw.adapter;
  */
 public class VlcPlayer implements AdvancedMediaPlayer {
     @Override
-    public void playVlc(String fileName) {
+    public void play(String fileName) {
         System.out.println("Vlc player:" + fileName);
     }
 
-    @Override
-    public void playMp4(String fileName) {
-
-    }
 }
