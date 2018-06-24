@@ -1,4 +1,4 @@
-package com.wjw.Composite;
+package com.wjw.composite;
 
 /**
  * @author shulu.wjw
